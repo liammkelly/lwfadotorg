@@ -1,0 +1,38 @@
+		#adminArea {
+			float:left;
+			margin:20px 0 0 20px;
+			height:600px;
+			width:500px;
+		}
+		#adminControls {
+			float:left;
+			border:1px solid black;
+			width:165px;
+			border-width:1px 1px 0 1px;
+			margin:20px 0 0 20px;
+			background-color:white;
+		}
+		#adminControls A {
+			display:block;
+			color:black;
+			font:bold 12px verdana;
+			text-decoration:none;
+			border:1px solid black;
+			border-width:0 0 1px 0;
+			padding:5px;
+		}
+		#adminControls A:hover {
+			background-color:#AC7233;
+			color:white;
+		}
+		A.menuItemOn {
+			background-color:#990000;
+			color:white;
+		}
+		A.menuItemOff {
+			background-color:white;
+			color:black;
+		}
+		#weeklyProcessArea {
+			display:none;
+		}

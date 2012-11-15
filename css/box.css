@@ -1,0 +1,47 @@
+.header {
+    background-color:#000000;
+    color:#FFFFFF;
+    font:bold 14px verdana;
+    padding:0 5px;
+}
+.thisBoxTbl .header IMG {
+}
+.total {
+    font:24px verdana;
+    text-align:center;
+    border:1px solid black;
+    border-width:0 0 1px 1px;
+}
+.image {
+    background-color:#000000;
+}
+.image IMG {
+    width:30px;
+    height:36px;
+}
+.name {
+    font:11px verdana;
+    text-align:center;
+    width:120px;
+    border:1px solid black;
+    border-width:0 0 1px 1px;
+}
+.line {
+    font:11px verdana;
+    width:125px;
+    border:1px solid black;
+    border-width:0 0 1px 1px;
+}
+.pos {
+    color:white;
+    background-color:#000000;
+    font:bold 18px verdana;
+    text-align:center;
+}
+.thisBoxTbl {
+    margin:15px;
+}
+.end {
+    border:1px solid black;
+    border-width:0 1px 1px 1px;
+}

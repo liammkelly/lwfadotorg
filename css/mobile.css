@@ -1,0 +1,33 @@
+BODY {
+	font-family:verdana;
+}
+
+#standingsTbl {
+}
+#teamTbl {
+	font-size:10px;
+}
+.gamelink {
+	display:none;
+}
+
+TD.line {
+	display:none;
+}
+.RozelleHeader {
+	background-color:blue;
+	color:white;
+}
+.LombardiHeader {
+	background-color:#900;
+	color:white;
+}
+.error {
+	color:red;
+}
+.info {
+	font-size:8px;
+}
+.teamName {
+	padding-right:20px;
+}

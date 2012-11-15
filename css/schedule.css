@@ -1,0 +1,41 @@
+.games A {
+		font:14px verdana;
+		color:black;
+	}	
+	#actionTbl {
+		background-color:#ADACAC;		
+		border:1px solid black;
+		border-width:0 1px 0 0;
+		float:left;
+		width:387px;
+		margin:0 182px;
+	}
+	#actionTbl TD{
+		border:1px solid black;
+		border-width:1px 0 1px 1px;
+		background-image:url('_images/link_bg.jpg');
+		height:26px;
+		padding:0 7px;
+	}	
+	#actionTbl TD.end{
+		background-color:white;
+		border-width:0;
+	}	
+	#actionTbl TD A {
+		color:black;
+		text-decoration:none;
+		font:12px verdana;
+		padding:0 7px 0 8px;
+	}	
+	.games {
+		width:740px;
+	}
+	#weekListing {
+		float:left;
+		padding-left:20px;
+		height:400px;
+		width:366px;
+		margin:0 182px;
+		overflow-y:scroll;
+		background-color:#e5e5e5;
+	}

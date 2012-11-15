@@ -1,0 +1,604 @@
+		body {
+			font-family:Verdana;
+			text-align:center;
+			background:#B5AA7C url('../images/2012_bg2.jpg') no-repeat 50% 10px;
+		}
+		A {
+			text-decoration:none;
+		}
+		A:hover {
+			text-decoration:underline;
+		}
+		.hilite {
+			font-weight:bold;
+			background-color:#ebe2e6;
+		}
+		h3 {
+			color:#000;
+		}
+		.ac_results li {
+			padding:none;
+		}
+
+		#header,#footer {
+			width:950px;
+			clear:both;
+			margin:0 auto;
+			text-align:left;
+		}
+		#header {
+			height:92px;
+			margin-top:20px;
+		}
+		#footer {
+			height:30px;
+			background-color:#700B0B;
+		}
+		#contentArea {
+			width:950px;
+			margin:0 auto;
+			text-align:left;
+		}
+		span.sectHeader {
+			font:bold 12px verdana;
+		}
+		.column {
+			}
+		#leftCol {
+			width:161px;
+			//height:424px;
+			float:left;
+			clear:none;
+			margin-right:10px;
+			background-color:#A6A88D;
+			/*background-image:url('/2012/images/bg2010.gif');
+			border:1px solid black;
+			border-width:0 9px 0 0;
+			background-color:#BDB9B9;*/
+		}
+		#middleCol {
+			width:690px;
+			height:auto;
+			/*width:530px;*/
+			float:left;
+			clear:none;
+			overflow:visible;
+			background-color:transparent;
+		}
+		#rightCol {
+			width:160px;
+			float:right;
+			clear:none;
+			background-color:transparent;
+			/*background-color:#BFA3A3;*/
+		}
+		#loginArea {
+			width:230px;
+			float:right;
+			margin:9px 43px 0 0;
+			background-color:#A6A88D;
+			color:#FFF;
+		}
+		#leftCol A,#leftCol #playerSearchDiv {
+			display:block;
+			font:bold 12px verdana;
+			padding:3px 0 3px 18px;
+			color:black;
+		}
+		#leftCol A:hover {
+			background:#DFCE85 url('../images/arrow.gif') 6% no-repeat;
+		}
+		#pendingDiv {
+			background-color:orange;
+			border:1px solid black;
+			text-align:center;
+			width:231px;
+			padding:8px 0;
+		}
+		#pendingDiv A {
+			color:black;
+			display:block;
+			text-decoration:none;
+		}
+		#pendingTradeDiv {
+			width:150px;
+			padding:13px 8px;
+			border:1px solid black;
+			background-color:#c7c7ea;
+			cursor:pointer;
+			margin-bottom:20px;
+			text-decoration:none;
+		}
+		#starPlayerDiv {
+			background-color:#A6A88D;
+			text-align:center;
+			//width:178px;
+			width:211px;
+			padding:13px 8px;
+			border:1px solid #A6A88D;
+			margin-bottom:20px;
+			font:bold 14px verdana;
+			height:148px;
+		}
+		#starPlayerDiv IMG {
+			height:80px;
+			width:67px;
+			margin:0 auto;
+		}
+		#mainIndexDiv {
+			float:left;
+		}
+		#scoresTabDiv {
+			height:560px;
+			width:200px;
+			float:left;
+			margin:0 0 0 15px;
+			font:12px verdana;
+		}
+		#playerSearchDiv {
+			position:relative;	
+			color:#000000;
+			font-weight:bold;
+			margin:0px;
+			padding:0px 5px;
+			height:20px;
+		}
+		#playerSearchDiv input {
+			font-family:Arial,Helvetica,sans-serif;
+			font-size:12px;
+		}	
+		#playerSearchDiv ul {
+			line-height:19px;
+			list-style-image:none;
+			list-style-position:outside;
+			list-style-type:none;
+			margin:3px 0pt 0pt;
+			padding:0pt;
+			z-index:10000000;
+		}	
+		#playerSearchDiv li {
+			color:#333333;
+			float:left;
+			font-family:Arial,Helvetica,sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			margin-right:0px;
+			width:auto;
+		}	
+		#playerSearchDiv  input.search_txt {
+			background:white url('/2012/images/searchglass.png') no-repeat scroll 3px 4px;
+			border:1px solid #9A7C2A;
+			color:#000000;
+			width:115px;
+			font-weight:normal;
+			padding:2px 0px 2px 17px;
+		}	
+		#playerSearchDiv input.searchBtnOK {
+			background:white none repeat scroll 0%;
+			border:1px solid #95A5C6;
+			color:#000000;
+			font-weight:bold;
+			padding:1px;
+		}
+		/*		
+		#teamsListing {
+			display:none;
+		}
+		*/
+		#scoresTabDiv A {
+			color:black;
+		}
+		#teamsTbl {
+			width:100px;
+			margin-left:20px;
+		}
+		#teamsTbl TD{
+			width:50%;
+		}
+		#teamsTbl TD A {
+			padding-left:12px;
+		}
+		#loginTbl {
+			margin-top:8px;
+		}
+		.fieldName {
+			font:bold 12px verdana;
+			color:#000;
+		}
+		.fieldName INPUT {
+			font:bold 12px verdana;
+			border:1px solid black;
+			border-width:1px 2px 2px 1px;
+			background-color:#C9C5BE;
+		}
+		INPUT#loginButton {
+			padding:5px;
+			background-color:#A6A88D;
+			color:white;
+			font:bold 18px arial;
+			margin-left:8px;
+		}
+		#orderArea {
+			text-align:left;
+			font:14px arial;
+		}
+	
+		
+/*********** PLAYERS STYLES **********/
+		div.playername {
+			float:left;
+			clear:none;
+		}
+		/*div.action {
+			float:right;
+			clear:none;
+			padding-right:10px;
+		}*/
+		#middleCol {
+			width:730px;
+		}
+		#playersTbl {
+			clear:both;
+		}
+		#topControls {
+			float:left;
+			margin:10px 0 0 0;
+		}
+		#pager {
+			float:left;
+			clear:none;
+		}
+		#criteria {
+			float:right;
+		}
+		#playerClaim {
+			background-color:white;
+			border:2px solid black;
+			display:none;
+		}
+	#alertBox {
+		font:bold 12px Verdana;
+		padding:25px 15px;
+		display:none;
+		position:absolute;
+		background-color:#e2ebd8;
+		border:2px solid black;
+		border-width:2px;
+		top:200px;
+		left:550px;
+	}
+A.smallLink {
+	font:bold 11px Arial;
+	color:#000;
+	text-decoration:none;
+}
+A.smallLink:hover {
+	text-decoration:underline;
+}
+
+
+
+
+
+/*********  STANDINGS STYLES *************/
+	DIV.outerTbl1 {
+		background-color:#A6A88D;
+		padding:1px;
+		position:static;
+		margin:0 0 20px 0;
+		z-index:1;
+		clear:none;
+	}
+	DIV.outerTbl2 {
+		background-color:black;
+		padding:1px;
+		position:static;
+		margin:0;
+		z-index:2;
+		clear:none;
+	}
+	TABLE.standingsTbl {
+		font:12px verdana;
+		border:1px solid #A6A88D;
+		float:left;
+		z-index:3;
+		background-color:white;
+		height:112px;
+	}
+	TABLE.standingsTbl TR TD {
+		padding:3px 7px;		
+	}
+	TABLE.standingsTbl .divisionHeader {
+		background-color:#A6A88D;
+	}
+	TABLE.standingsTbl .divisionHeader TD {
+		font-weight:bold;
+	}
+	TABLE.standingsTbl TD {
+		text-align:center;
+	}
+	TABLE.standingsTbl .teamName {
+		width:150px;
+		text-align:center;
+		margin:4px 14px;
+		font-weight:bold;
+	}
+	TABLE.standingsTbl .teamName A {
+		text-decoration:none;
+		color:black;
+	}
+    .conference {
+        color:#2a5f24;
+    }
+
+	
+/*********  TEAMPAGE STYLES *************/
+	#teamNameSect {
+		float:left;
+		clear:none;
+		font:bold 18px verdana;
+		width:280px;
+		color:#BE98E1;
+	}
+	#teamNameSect .teamRecord {
+		font-size:20px;
+		color:#A6A88D;
+		margin-left:10px;
+	}
+	#mainTeamDiv {
+		clear:both;
+	}
+	#alertBox {
+		font:bold 12px Verdana;
+		padding:25px 15px;
+		display:none;
+		position:absolute;
+		background-color:#e2ebd8;
+		border:2px solid black;
+		border-width:2px;
+		top:200px;
+		left:550px;
+	}
+	#teamDiv, #tradeTeamDiv {
+		clear:none;
+		width:48%;
+		float:left;
+		padding-left:10px;
+	}
+	#teamDiv SELECT, #tradeTeamDiv SELECT {
+		margin-left:10px;
+		width:210px;
+	}
+	#playerDiv {
+		width:70px;
+		clear:none;
+		float:left;
+		font:9px arial;
+		text-align:center;
+	}
+	#playerDiv IMG {
+		margin:0 10px;
+	}
+	#teamTbl {
+		width:700px;
+		background-color:#D1D2D1;
+	}
+	#teamTbl TH {
+		font:bold 12px Verdana;
+		background-color:#A6A88D;
+	}	
+	#teamTbl TD {
+		font:11px Verdana;
+	}	
+	#teamTbl .recentSect,#teamTbl .seasonSect {
+		padding-left:25px;
+	}
+	#teamTbl .posSect {
+		font-weight:bold;
+		text-align:center;
+	}
+	#teamTbl .nameSect {
+		font-weight:bold;
+		width:175px;
+		padding-left:7px;
+	}
+	#teamTbl .nameSect A {
+		color:black;
+	}
+	#teamTbl TD .statusSect {
+		width:50px;
+	}
+	span#teamNameSect {
+		font:bold 18px verdana;
+		color:#C9C5BE;
+	}
+	.best {
+		color:red;
+		font-weight:bold;
+	}
+	.submitBtn {
+		font:bold 11px verdana;
+		background-color:silver;
+		border:1px solid black;
+		border-width:1px 2px 2px 1px;
+		padding:3px 7px;
+	}
+	A.submitBtn {
+		color:black;
+		text-decoration:none;
+		padding:4px 7px;
+	}
+	INPUT#lineupSubmitBtn {
+	}
+	#lineupForm {
+		margin-top:20px;
+	}
+	#sectionContainer{display:none;position:absolute;width:245px;border:black 1px solid;}
+	#sectionSelection{width:250px;float:right;margin-right:2px;border:black 1px solid;}
+
+
+
+/*********  SCORE TABS STYLES *************/
+	
+	
+	#tabsList {
+		list-style:none;
+		font-size:10px;
+		margin-left:5px;
+	}
+	#tabsList LI {
+		margin:0;
+		float:left;
+		clear:none;
+		background-color:#9595C6;
+	}
+	A#scoresTab {
+		width:180px;
+		border:1px solid black;
+		margin:0;
+	}
+	A#matchupsTab {
+		width:180px;
+		border:1px solid black;
+		margin:0;
+	}
+
+	
+/*********  SCORES STYLES *************/
+A.scoreTm {
+	font:bold 12px verdana;
+	text-decoration:none;
+	color:black;
+}
+A.scoreNickname {
+	font:bold 18px verdana;
+	text-decoration:none;
+	color:black;
+}
+
+
+
+/*********  TRANSACTIONS STYLES *************/
+#transTbl {
+	width:650px;
+	font-size:11px;
+}
+#transTbl .headrow{
+	background-color:black;
+	color:#A6A88D;
+}
+#transTbl .even{
+	background-color:#A6A88D;
+}
+#transTbl .odd{
+	background-color:#FFF;
+}
+#transactionsTbl TD A {
+	color:black;
+}
+#transactionsDiv {
+	text-align:center;
+	width:480px;
+	clear:none;
+}
+#transactionList {
+}
+#transactionsTbl {
+	margin-bottom:15px;
+	width:480px;
+	border:1px solid black;
+}
+#transactionsTbl TR {
+	height:20px;
+}
+#transactionList TD {
+	text-align:left;		
+	margin-left:25px;
+	font:12px verdana;	
+}
+#transactionList .transTeam {
+	font-weight:bold;
+	padding:0 10px 0 20px;
+}
+#transactionList TR	{
+	background-color:#FFF;
+}
+#transactionList .oddRow	{
+	background-color:#A6A88D;
+}
+#movesTbl .transTeam {
+	font-size:16px;
+}
+#loginDiv {
+	text-align:center;
+	background-color:#A6A88D;
+	padding:6px 0;
+}
+
+/*********  PLAYER PAGE STYLES *************/
+#gameLogBar {
+	background-color:silver;
+	width:120px;
+	cursor:pointer;
+}
+#gameLogDiv {
+	width:500px;
+}
+#gameLogDiv #gameLogTbl {
+	border:1px solid black;
+	border-width:1px 0 0 1px;
+}
+#gameLogDiv #gameLogTbl TH,#gameLogDiv #gameLogTbl TD {
+	border:1px solid black;
+	border-width:0 1px 1px 0;
+	padding:2px 4px;
+}
+
+#tiebreakDiv {
+	background-color:silver;
+	width:400px;
+	margin:20px 0 0 20px;
+	padding:20px 0 20px 20px;
+}
+
+
+.ui-tabs {
+	font-size:11px;
+}
+.playerLinkArea {
+	width:25px;
+	height:30px;
+	float:left;
+	margin: 0 8px 0 0;
+	vertical-align:middle;
+	padding-top:8px;
+}
+.playerLinkArea A {
+	font-size:10px;
+	vertical-align:middle;
+}
+
+.conference {
+	height:20px;
+}
+.ui-widget-header {
+	background:transparent url(images/spacer.gif);
+	border:0;			
+}	
+.ui-icon {
+	float:left;
+}
+
+/* POST COMMENT STYLES */
+#postCommentArea {
+	width: 368px;
+	height: 160px;
+}
+#postCommentSubject {
+	font-weight:bold;
+}
+#postCommentSubjectArea {
+	height:70px;
+	font:12px arial;
+	text-align:left;
+}

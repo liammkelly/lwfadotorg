@@ -1,0 +1,26 @@
+h3 {
+	font-family:arial;
+}
+	.overviewTbl {
+	font:12px arial;
+	background-color:white;
+	border:1px solid #4A2ED6;
+}
+.overviewTbl TD {
+	text-align:center;
+	border:1px solid black;
+	border-width:0 1px 1px 0;
+	padding:0 7px;
+}
+.overviewTbl TH {
+	border:1px solid black;
+	border-width:1px 1px 1px 0;
+	padding:1px 3px;
+	background-color:black;
+	color:white;
+}		
+.overviewTbl .leftCell {
+	border-width:0 1px 1px 1px;
+	padding:2px 7px;
+	font:bold 13px arial;
+}

@@ -1,0 +1,50 @@
+#teamTbl {
+	border:1px solid black;
+	border-width:1px 0 0 1px;
+	margin: 0 0 0 22px;
+}
+#teamTbl TD {
+	border:1px solid black;
+	border-width:0 1px 1px 0;
+	width:110px;
+	font:11px verdana;
+	padding:0 0 0 4px;
+}
+#teamTbl TD A {
+	color:black;
+}
+#teamTbl TD.posSect {
+	width:30px;
+	padding:2px 5px;
+	font:bold 12px verdana;
+	text-align:center;
+}	
+#teamNameSect {
+	font:bold 18px verdana;
+	color:#2a6024;
+	margin:15px 0 0 22px;
+	width:500px;
+}
+#teamNameSect A {
+    color:#2a6024;
+}
+#teamNameSect .biglink {
+    font-size:14px;
+    color:#000000;
+}
+#teamNameSect .biglink A {
+    font-size:14px;
+    color:#000000;
+}
+div#rosterArea {
+	width:770px;
+	height:450px;
+	overflow-y:scroll;
+}
+
+.playercell A {
+	text-decoration:none;
+}
+.playercell:hover {
+	background-color:yellow;
+}

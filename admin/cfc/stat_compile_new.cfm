@@ -1,0 +1,1 @@
+<cfinclude template="../stat_compile_new.cfm">

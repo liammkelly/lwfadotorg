@@ -1,0 +1,240 @@
+#tabsArea {
+    float:left;
+    margin: 0 0 0 15px;
+}
+#scoresTab {
+    font:12px verdana;
+    background-color:#FFF;
+    margin:0;
+    width: 311px;
+    height: 505px;
+}
+#movesTab {
+    font:12px verdana;
+    background-color:#FFF;
+    margin:0;
+    width: 311px;
+    height: 505px;
+    padding:10px;
+}
+#matchupsTab {
+    font:12px verdana;
+    background-color:#FFF;
+    margin:0;
+    width: 311px;
+    height: 505px;
+}
+#postsTab {
+    width: 311px;
+    height: 505px;
+    background-color: white;
+    float: left;
+    font: 12px verdana;
+    overflow-y:scroll;
+}
+#tradesTab  {
+    width: 308px;
+    height: 505px;
+    background-color: white;
+    float: left;
+    font: 12px verdana;
+    overflow-y:scroll;
+}
+#postsTab .postCommentLnk A {
+}
+#postsTab .postCommentLnk A IMG {
+	height:12px;
+	width:12px;
+}
+#postsTab .homePost {
+    float:left;
+    width:100%;    
+    padding:10px 0;
+    border:1px dotted black;
+    border-width:0 0 1px 0;
+}
+#postsTab .helmet {
+    height:38px;
+    width:47px;
+    float:left;
+    padding-right:4px;
+}
+#postsTab .comment {
+    float:left;
+    width:228px;
+}
+#postsTab .player .playerimg {
+    height:62px;
+    width:47px;
+    float:left;
+    margin:0 3px 0 0;
+}
+#postsTab .link {
+    float:right;
+    width:16px;
+}
+#postsTab .link IMG {
+    cursor:pointer;
+}
+#postsTab .homePost .reply {
+    float:left;
+    width:85%;    
+    padding:10px 0 0 15%;
+}
+#postsTab .homePost .reply .helmet {
+    height:33px;
+    width:40px;
+    float:left;
+    padding-right:4px;
+}
+#postsTab .homePost .reply .comment {
+    float:left;
+    width:200px;
+}
+#movesTab .transactionDiv {
+    width:100%;
+    float:left;
+    border:1px dotted black;
+    border-width:0 0 1px 0;
+    margin-bottom:3px;
+    padding:2px 0 3px;
+}
+#movesTab .transactionDiv.newdate {
+    border:2px solid black;
+    border-width:0 0 2px 0;
+}
+#movesTab .transactionDiv .link {
+	width:40px;
+	float:left;
+}
+#movesTab .transactionDiv .link .add {
+	margin:0 0 0 10px;
+}
+#movesTab .transactionDiv .link .helmet {
+    height:33px;
+    width:40px;
+    float:left;
+    padding-right:4px;
+}
+#movesTab .transactionDiv:nth-child(1) {
+    border-width:1px 0 1px 0;	
+    padding:5px 0 3px;
+}
+#movesTab .transactionDiv .claimed,#movesTab .transactionDiv .dropped {
+    width:130px;
+    float:left;
+}
+#movesTab .transactionDiv .claimed {
+    padding-right:2px;
+    border:1px dotted black;
+    border-width:0 1px 0 0;
+    margin-right:5px;
+}
+#movesTab .transactionDiv .playerdetail IMG {
+    width:36px;
+    height:47px;
+}
+#movesTab .transactionDiv .claimed .playerdetail IMG {
+    float:left;
+    margin-right:6px;
+}
+#movesTab .transactionDiv .dropped .playerdetail IMG {
+    float:right;
+    margin-left:6px;
+}
+#movesTab .transactionDiv .playerdetail .playername {
+    width:80px;
+}
+#tradesTab .tradeDiv {
+    width:100%;
+    float:left;
+    border:1px dotted black;
+    border-width:0 0 1px 0;
+    margin-bottom:3px;
+    padding:2px 0 3px;    
+}
+#tradesTab .pending.tradeDiv {
+    background-color:orange;
+    border:2px dotted #900;
+}
+#tradesTab .tradeDiv .tradeTeamArea {
+    width:100%;
+    float:left;    
+}
+#tradesTab .tradeDiv .tradeTeamArea .helmet {
+    height:38px;
+    width:47px;
+}
+#tradesTab .tradeDiv .tradeTeamArea .helmet.toTeam, #tradesTab .tradeDiv .tradeTeamArea .toTeamPlayers, #tradesTab .tradeDiv .tradeTeamArea .toTeamArrow {
+    float:left;
+}
+#tradesTab .tradeDiv .tradeTeamArea .helmet.fromTeam, #tradesTab .tradeDiv .tradeTeamArea .fromTeamPlayers, #tradesTab .tradeDiv .tradeTeamArea .fromTeamArrow  {
+    float:right;
+}
+.standingsTbl TR TD .helmet {
+    width:18px;
+    height:15px;
+}
+
+
+
+.postCommentLnk {
+    height:20px;
+    width:98%;
+    text-align:right;
+    padding:0 20px 0 0;
+}
+.printableLink {
+    float:left;
+    width:170px;
+    height:10px;
+}
+.printableLink A {
+    font:bold 10px verdana;
+    float:left;
+}
+.scorelineDiv {
+	border:1px solid black;
+	margin:11px 0 0 6px;
+	padding:6px 0 0 5px;
+	width:280px;
+	height:36px;
+	clear:none;
+	float:left;
+	text-align:center;
+}
+.scorelineDiv:hover {
+	background-color:#A6A88D;
+}
+.scorelineDiv A {
+	display:block;
+	font-size:11px;
+}
+.scorelineDiv .awayteam,.scorelineDiv .hometeam {
+	float:left;
+}
+.scorelineDiv IMG {
+	width:35px;
+	height:28px;
+	border:0;
+}
+.scorelineDiv .teams {
+    width:200px;
+    float:left;
+    margin:7px 0;
+}
+.scorelineDiv .homehelmet,.scorelineDiv .awayhelmet {
+    width:40px;
+}
+.scorelineDiv .homehelmet {
+    float:right;
+}
+.scorelineDiv .awayhelmet {
+    float:left;
+}
+.scorelineDiv A:hover {
+	text-decoration:none;
+}
+.userteam {
+    background-color:yellow;
+}

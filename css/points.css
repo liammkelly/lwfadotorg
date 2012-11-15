@@ -1,0 +1,26 @@
+	#pointsLeaderboardDiv {
+		float:left;
+	}
+	#pointsTbl {
+		margin:0 auto;
+		background-color:#FFF;
+		font:12px verdana;
+		width:560px;
+	}
+	#pointsTbl TR {
+		height:30px;
+	}
+	#pointsTbl TR > TH {
+		background-color:#A6A88D;
+	}
+	#pointsTbl TR TH {
+		text-align:center;
+	}
+	#pointsTbl TR TD A {
+		color:black;
+		margin-left:20px;
+	}
+	h3 {
+		text-align:center;
+		margin-bottom:15px;
+	}

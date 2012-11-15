@@ -1,0 +1,230 @@
+#actionTbl {
+	background-color:#ADACAC;		
+	border:1px solid black;
+	border-width:0 1px 0 0;
+}
+#actionTbl TD{
+	border:1px solid black;
+	border-width:1px 0 1px 1px;
+	background-color:#A6A88D;
+	height:26px;
+	/height:23px;
+	padding:0 8px;
+}	
+#actionTbl TD:hover {
+	background-color:#7598FF;
+}
+#actionTbl TD.end{
+	background-color:white;
+	border-width:0;
+}	
+#actionTbl TD A {
+	color:black;
+	display:block;
+	text-decoration:none;
+	font:12px verdana;
+}	
+#actionTbl TD #lineupSubmitBtn {
+	padding:0 1px;
+}	
+#injuredPlayersDiv {
+	background-color:#DDDDDD;
+	border:1px solid black;
+	font-size:11px;
+	width:450px;
+	margin:30px auto;
+	padding:3px;
+}
+#teamNameArea {
+	float:left;
+	width:300px;
+}
+	
+	
+#coachArea {
+    float:left;
+    width:200px;   
+}
+.teamNickname {
+	font:bold 18px arial;
+	color:#FFDF80;
+}
+.teamNickname div {
+	clear:none;
+	float:left;
+}
+.teamNickname .city {
+	margin-right:5px;
+}
+.teamRecord {
+	float:right;
+	font-size:26px;
+	background-color:#DAE6FA;
+	color:#28009E;
+	padding:1px 5px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+}
+.owner {
+	font:bold 14px arial;
+	color:#FFF;
+	margin-left:2px;
+	clear:left;
+}
+
+#actionDiv {
+	float:right;
+	width:235px;
+	margin-right:29px;	
+}
+
+#teamHeaderTbl {
+	border: 1px solid black;
+	border-width: 1px 0 0 1px;
+	background-color:white;
+	width: 700px;
+	margin-bottom:15px;
+}
+#teamHeaderTbl TD,#teamHeaderTbl TH {
+}
+#teamHeaderTbl TH {
+	font:bold 36px arial;
+	text-align:center;
+	height:85px;
+}
+#helmet {
+	width:117px;
+}
+#headCoachField {
+	border:0;
+	width:215px;
+	height:28px;
+	font:16px arial;
+}
+#headCoachField:hover,#headCoachField:focus {
+	background-color:yellow;
+}
+#owner {
+	width:265px;
+	height:30px;
+}
+#coach {
+	width:265px;
+	height:30px;
+}
+
+#teamActionTbl {
+	width:100%;
+}
+.teamaction {
+	width:18%;
+	height:28px;
+	background-color:#A6A88D;
+	border:1px solid black;
+	border-width:1px 1px 1px 0;
+	font:bold 14px verdana;
+	text-align:center;
+}
+.teamaction A {
+	text-decoration:none;
+	color:black;
+	display:block;
+}
+.teamaction:hover {
+	background-color:#C6FF1A;		
+}
+.teamaction:last-child {
+}
+.lastcell {
+	border:1px solid black;
+	border-width:0 1px 0 0;
+}
+.inj {
+	background-color:white;
+}
+.teamDiv {
+	display:none;
+	float:left;
+}
+.tradeTeamDiv {
+	display:none;
+	float:left;
+}
+.tradeTeamDiv:first-child {
+	display:block;
+}
+#buttonsDiv {
+	float:right;
+	margin:50px 0 0 15px;
+}
+#buttonsDiv A {
+	line-height:500%;
+}
+.playerSelect {
+	width:280px;
+}
+.confirm {
+	margin-top:100px;
+}
+#offerConfirmLnk, #waiveConfirmLnk {
+	display:none;
+}
+#tradeDialog, .ui-dialog {
+	overflow: hidden;
+}
+#confirmDiv, .confirmHeader {
+	display:none;
+}
+#makeOfferBtn {
+	margin-top:30px;
+}
+#timeDiv {
+	margin:0 auto;
+	font:10px arial;
+	color:white;
+	clear:both;
+	float:left;
+}
+.teamWeek {
+	width:700px;
+	padding:5px 0;
+	float:left;
+	clear:both;
+	margin:0;
+	font:14px verdana;
+	background-color:#FFF;
+}
+.teamWeekNo {
+	float:left;
+	width:30px;
+}
+.teamWeekOpponent {
+	float:left;
+	width:200px;
+	font-weight:bold;		
+}
+.teamWeekScore {
+	float:left;
+	margin:0;
+	width:150px;
+}
+.teamWeekStar {
+	float:left;
+	clear:right;
+}
+.schedHeader {
+	text-decoration:underline;
+	font-weight:bold;
+}
+#moveSuccessDialog {
+	text-align:center;
+}
+#moveSuccessDialog .ui-dialog-titlebar { 
+	display:none; 
+}
+.activelineupBtn { border:0;margin:2px;background-color:#900;color:white;padding:0 1px;cursor:pointer; }
+.lineupBtn { border:0;margin:2px;background-color:#7D7F6F;color:black;padding:0 1px;cursor:pointer; }
+.lockedlineupBtn { border:0;margin:2px;background-color:silver;padding:0 1px;color:white; }
+.DL {background-color:red;}
+.benchRow {display:none;}

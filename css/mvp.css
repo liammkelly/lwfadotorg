@@ -1,0 +1,81 @@
+#starsDiv {
+		margin:20px 0 0 30px;
+		position:relative;
+	}
+	.starWeek {
+		font:14px verdana;
+		height:60px;
+		width:280px;
+		margin:0 15px 15px;
+		background-color:#FFF;
+		float:left;
+	}
+	.starWeek.odd {
+	}
+	.starWeek.even {
+		clear:right;
+	}
+	.starWeek IMG {
+		float:left;
+		clear:none;
+		height:60px;
+		width:50px;
+		margin-right:8px;
+	}
+	#mvpArea {
+		width:640px;
+		height:370px;
+	}
+	
+	.starWeek IMG {
+		float:left;
+	}
+	
+	.mvpDiv {
+	}
+	.first {
+		font-size:10px;
+		width:120px;
+		height:12px;
+		float:left;
+	}
+	.last {
+		font-size:14px;
+		height:20px;
+		float:left;
+	}
+	.line {
+		font-size:9px;
+		float:left;
+	}
+	.lwfateam {
+		float:left;
+		margin-left:10px;
+	}
+	.namearea {
+		width:100px;
+		height: 34px;
+		float:left;
+	}
+	.points {
+		float:right;
+		width:30px;
+		clear:none;
+		margin-right:16px;
+		color:#900;
+		font-weight:bold;
+	}
+	.scorearea {
+		width:150px;
+		float:left;
+	}
+	.weekNo {
+		float:left;
+		color:white;
+		background-color:black;
+		font-size:48px;
+		width:60px;
+		height:60px;
+		text-align:center;
+		clear:none;
+	}

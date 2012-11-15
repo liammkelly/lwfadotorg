@@ -1,0 +1,26 @@
+	DIV#pointsLeaderboardDiv {
+		float:left;
+	}
+	TABLE#blockTbl {
+		margin:0 auto;
+		background-color:#FFF;
+		font:10px verdana;
+		width:630px;
+	}
+	TABLE#blockTbl TR {
+		height:30px;
+	}
+	TABLE#blockTbl TR > TH {
+		background-color:#A6A88D;
+	}
+	TABLE#blockTbl TR TH {
+		text-align:center;
+	}
+	TABLE#blockTbl TR TD A {
+		color:black;
+		margin-left:20px;
+	}
+	h3 {
+		text-align:center;
+		margin-bottom:15px;
+	}

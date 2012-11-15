@@ -1,0 +1,57 @@
+DIV#playerDiv {
+		text-align:left;
+		margin:20px 0 0 20px;
+		width:90%;
+		font:14px verdana;
+		border:1px solid black;
+		background-color:white;
+	}
+	DIV#playerStatsDiv {
+		padding:10px;
+	}
+	DIV#playerDiv P {
+		margin-bottom:19px;
+	}
+	DIV#playerNameDiv {
+		color:white;
+		background-color:black;
+	}
+	DIV#playerNameDiv {
+		margin:0;
+		height:90px;
+	}
+	DIV#firstName {
+		font:16px verdana;
+		font-weight:bold;
+		vertical-align:bottom;
+	}
+	DIV#lastName {
+		font:48px verdana;
+		line-height:43px;
+	}
+	DIV#nflTeam {
+		color:<cfoutput>###qplayerdata.color#</cfoutput>;
+		font:bold 16px verdana;
+		margin-top:5px;
+	}
+	DIV#mvpWeeksDiv H4 {
+		color:purple;
+	}
+	DIV#transHistoryDiv {
+		font-style:italic;
+		margin-bottom:20px;
+	}
+	
+#posticon {
+    width:16px;
+    height:16px;
+    float:left;
+    margin-top:3px;
+}
+#playerimg {
+    clear:none;
+    float:left;
+    margin:0 5px 0 0;
+    height:90px;
+    width:74px;
+}

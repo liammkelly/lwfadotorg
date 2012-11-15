@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme full="true" name="lwfa" path="/Applications/ColdFusion9/wwwroot/2012/css">
+<exclude name="dd/drop-add.gif"/>
+<exclude name="dd/drop-no.gif"/>
+<exclude name="dd/drop-yes.gif"/>
+<exclude name="editor/tb-sprite.gif"/>
+<exclude name="form/exclamation.gif"/>
+<exclude name="grid/dirty.gif"/>
+<exclude name="grid/drop-no.gif"/>
+<exclude name="grid/drop-yes.gif"/>
+<exclude name="grid/hmenu-asc.gif"/>
+<exclude name="grid/hmenu-desc.gif"/>
+<exclude name="grid/hmenu-lock.gif"/>
+<exclude name="grid/hmenu-lock.png"/>
+<exclude name="grid/hmenu-unlock.gif"/>
+<exclude name="grid/hmenu-unlock.png"/>
+<exclude name="grid/refresh.gif"/>
+<exclude name="shared/warning.gif"/>
+<exclude name="tree/arrows.gif"/>
+<exclude name="tree/drop-add.gif"/>
+<exclude name="tree/drop-between.gif"/>
+<exclude name="tree/drop-no.gif"/>
+<exclude name="tree/drop-over.gif"/>
+<exclude name="tree/drop-under.gif"/>
+<exclude name="tree/drop-yes.gif"/>
+<exclude name="tree/folder-open.gif"/>
+<exclude name="tree/folder.gif"/>
+<exclude name="window/icon-error.gif"/>
+<exclude name="window/icon-info.gif"/>
+<exclude name="window/icon-question.gif"/>
+<exclude name="window/icon-warning.gif"/>
+<effect hue="-164" lightness="-22" name="Hue/Saturation..." saturation="11"/>
+<effect enabled="false" name="Invert"/>
+</theme>
